@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-    background-color: #888888; /* Fundo cinza */
+    background-color: #F0F8FF;
     color: blue;
     font-size: 20px;
     font-family: Arial;
@@ -8,19 +8,19 @@ body {
 }
 
 h1 {
-    font-size: 3vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do título */
+    font-size: 3vw; 
     color: black;
     font-family: Times New Roman;
 }
 
 h3 {
-    font-size: 2.5vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do título */
+    font-size: 2.5vw; 
     color: black;
     font-family: Times New Roman;
 }
 
 p {
-    font-size: 2vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do texto */
+    font-size: 2vw;
     color: black;
     font-family: Times New Roman;
 }
