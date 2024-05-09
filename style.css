@@ -1,27 +1,40 @@
 @charset "UTF-8";
 body {
-    background-color: #F0F8FF;
-    color: blue;
-    font-size: 20px;
+    background: linear-gradient(to right, #F0F8FF, #A9A9A9); /* Degrade em duas cores */
+    color: black; /* Cor das letras preto */
     font-family: Arial;
-    text-align: left;
+    text-align: center; /* Textos centralizados */
 }
 
 h1 {
-    font-size: 3vw; 
-    color: black;
-    font-family: Times New Roman;
+    font-size: 30px; /* Tamanho 30 */
+    color: #2F4F4F; /* Cor da letra cinza escuro */
+    font-family: Arial;
+    text-align: center; /* Centralizado */
 }
 
-h3 {
-    font-size: 2.5vw;
-    color: black;
-    font-family: Times New Roman;
+h2 {
+    font-size: 25px; /* Tamanho 25 */
+    color: #696969; /* Cor da letra cinza médio */
+    font-family: Arial;
+    text-align: left; /* À esquerda */
 }
 
 p {
-    font-size: 2vw; 
-    color: black;
-    font-family: Times New Roman;
+    font-size: 20px; /* Tamanho 20 */
+    color: black; /* Cor preta */
+    font-family: Arial;
+    text-align: justify; /* Justificado */
 }
 
+img {
+    width: 50%; /* Tamanho médio */
+    display: block; /* Centraliza a imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+a {
+    color: blue; /* Cor azul */
+    text-decoration: none; /* Sem sublinhado */
+    font-size: 25px; /* Tamanho 25 */
+}
