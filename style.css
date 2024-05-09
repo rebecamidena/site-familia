@@ -1,26 +1,27 @@
 @charset "UTF-8";
 body {
-    background: linear-gradient(to right, #ff00ff, #00ffff); 
+    background-color: #888888; /* Fundo cinza */
     color: blue;
-    font-size: 20px; 
+    font-size: 20px;
     font-family: Arial;
-    text-align: left; 
+    text-align: left;
 }
 
 h1 {
-    font-size: 50px; 
+    font-size: 3vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do título */
     color: black;
     font-family: Times New Roman;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.5vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do título */
     color: black;
-    font-family: Times New Roman; 
+    font-family: Times New Roman;
 }
 
 p {
-    font-size: 30px;
+    font-size: 2vw; /* Usando unidade de largura de visualização (vw) para ajustar o tamanho do texto */
     color: black;
     font-family: Times New Roman;
+}
 }
